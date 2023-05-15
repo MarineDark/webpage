@@ -6,11 +6,26 @@
   color-scheme: light dark;
   color: #e6f8f8;
   background: linear-gradient(#00656255, #002221);
-  min-height: 100vh;
 
+  text-align: center;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.screenshot {
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
 }
