@@ -1,3 +1,9 @@
+<script setup>
+import TheHeader from "./components/TheHeader.vue";
+</script>
+
 <template>
-  <div>Hello World!</div>
+  <main class="container">
+    <TheHeader />
+  </main>
 </template>
