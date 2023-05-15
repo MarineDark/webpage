@@ -5,5 +5,8 @@ defineProps({
 </script>
 
 <template>
-  <button>{{ color }}</button>
+  <button>
+    <span :style="`background: ${color}`"></span>
+    <span>{{ color }}</span>
+  </button>
 </template>

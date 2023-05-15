@@ -9,8 +9,10 @@ const colors = useColorsStore().palette;
   <section class="color-palette">
     <h2>Color Palette</h2>
 
-    <div v-for="color in colors" :key="color">
-      <Color :color="color" />
+    <div>
+      <template v-for="color in colors" :key="color">
+        <Color :color="color" />
+      </template>
     </div>
   </section>
 </template>
