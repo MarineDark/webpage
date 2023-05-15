@@ -27,6 +27,7 @@
 
   img {
     width: 100%;
+    pointer-events: none;
 
     -webkit-mask-image: -webkit-gradient(
       linear,
