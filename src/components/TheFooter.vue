@@ -1,4 +1,5 @@
 <script setup>
+import Link from "./Link.vue";
 import { useLinksStore } from "../stores/links";
 
 const links = useLinksStore().links;
@@ -8,7 +9,7 @@ const links = useLinksStore().links;
   <footer>
     <ul>
       <li v-for="link in links">
-        <a :href="link.url">{{ link.title }}</a>
+        <Link :link="link" />
       </li>
     </ul>
   </footer>

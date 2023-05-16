@@ -85,6 +85,28 @@
   }
 }
 
+footer {
+  @extend .container;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    li {
+      padding: 0.3rem 0.7rem;
+
+      a {
+        font-family: monospace;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #00b6b6;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .color-palette {
     max-width: 645px;
