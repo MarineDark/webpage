@@ -84,3 +84,46 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .color-palette {
+    max-width: 645px;
+  }
+}
+
+@media (max-width: 768px) {
+  .color-palette {
+    max-width: 312px;
+
+    div {
+      grid-template-columns: auto auto auto auto;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .color-palette {
+    max-width: 90%;
+    top: -3.5rem;
+
+    div {
+      grid-template-columns: auto auto;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        span:nth-child(1) {
+          padding: 1rem;
+          border-radius: 50%;
+          margin: 0;
+        }
+
+        span:nth-child(2) {
+          margin-left: 0.7rem;
+        }
+      }
+    }
+  }
+}
