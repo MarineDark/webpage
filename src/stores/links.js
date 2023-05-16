@@ -9,7 +9,7 @@ export const useLinksStore = defineStore("links", {
       },
       {
         title: "Alacritty",
-        url: "https://github.com/MarineDark/marine-dark-vscode",
+        url: "https://github.com/ProDeSquare/alacritty-colorschemes/blob/master/themes/marine_dark.yaml",
       },
     ],
   }),
