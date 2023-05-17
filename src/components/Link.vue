@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <a :href="link.url">
+  <a :href="link.url" target="_blank" rel="noreferrer">
     <span>{{ link.title }}</span>
     <LinkIcon />
   </a>
